@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* color: rgb(148, 192, 231); */
+}
+
+:root {
+    /* --maincolor:rgb(209, 165, 248); */
+    --seccolor: #11071F;
+    --thecolor: #393E46;
+}
+/* navbar styleing */
+#navbar{
+    display: flex;
+    justify-content: center;
+    background-color: var(--seccolor);
+}
+#logo img{
+    width: 40px;
+    margin: 0px 45px;
+}
+#navbar ul{           
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+/* home,about section are styleing */
+#navbar ul li{
+    margin: 0px 10px;
+    color: aliceblue;
+}
+#navbar ul li:hover{
+    color: var(--thecolor);
+}
+/* Navbar End */
+main {
+    /* height: 90vh; */
+    background: var(--seccolor);
+}
+
+.intro{
+    /* width: 80vw; */
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hello{
+    width: 40vw;
+    /* margin: 2vw; */
+    font-size: auto;
+    color: aliceblue;
+    align-items: center;
+}
+#bharat{
+    color: blueviolet;
+}
+.intro .hello h5{
+    max-width: 35vw;
+    margin: 15px 0px;
+}
+.intro .hello button{
+    background-color: blueviolet;
+    color: rgb(28, 25, 32);
+    padding: 0px 6px;
+    border-radius: 20px;  
+    border: 1px solid white;
+}
+.intro .hello button:hover{
+    opacity: 70%;
+}
+.intropng img{
+    max-width: 25vw;
+    padding: 30px ;
+    background-image:url(background.png);
+    background-size: cover;
+    background-position: center;
+}
+main .intro2{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* color: aliceblue; */
+}
+main .intro2 .aboutpng img{
+    max-width: 20vw;
+    padding: 15px 50px;
+    background-image:url(background.png);
+    background-size: cover;
+    background-position: center;
+}
+main .intro2 #about{
+    color: blueviolet;
+    padding: 10px 0px;
+}
+main .intro2 h5{
+    max-width:37vw;
+    padding: 20px;
+    color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.169);
+    border-radius: 15px;
+    /* opacity: 70%; */
+}
+main .skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .skill h1{
+    color: blueviolet;
+    font-size: xx-large;
+    padding: 20px; 
+}
+main .skill .s1,.s2 ,.s3{
+    padding: 10px;
+    margin: 10px;
+    min-width: 25vw;
+    font-size: x-large;
+    color:blueviolet;
+    background-color: rgba(240, 248, 255, 0.051);
+    border-radius: 3px;
+    border-block: 0.2rem solid;
+    writing-mode: horizontal-tb;
+    /* direction: rtl; */
+}
+main .skill li{
+    color: rgba(240, 248, 255, 0.934);
+    list-style: none;
+    font-size:small
+}
+footer .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:blueviolet;
+    font-size: xx-large;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+footer {
+    margin: 10;
+    padding: 0;
+    height: 100px;
+    background: var(--seccolor);
+}
